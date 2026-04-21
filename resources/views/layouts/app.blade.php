@@ -10,23 +10,23 @@
 </head>
 <body>
 
+<div class="d-flex gap-3 bg-red p-2 justify-content-center">
+        <a class="nav-link menu-link" href="/inicio">Inicio</a>
+        <a class="nav-link menu-link" href="/quienes-somos">Quiénes Somos</a>
+        <a class="nav-link menu-link" href="/catalogo">Catálogo</a>
+        <a class="nav-link menu-link" href="/comercializacion">Comercialización</a>
+        <a class="nav-link menu-link" href="/consultas">Consultas</a>
+        <a class="nav-link menu-link" href="/contacto-oga">Contacto</a>
+        <a class="nav-link menu-link" href="/terminos">Términos y Usos</a>
+
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand fw-bold" href="/inicio">Tienda OGA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
-                <a class="nav-link" href="/inicio">Inicio</a>
-                <a class="nav-link" href="/quienes-somos">Quiénes Somos</a>
-                <a class="nav-link" href="/catalogo">Catálogo</a>
-                <a class="nav-link" href="/comercializacion">Comercialización</a>
-                <a class="nav-link" href="/consultas">Consultas</a>
-                <a class="nav-link" href="/contacto-oga">Contacto</a>
-                <a class="nav-link" href="/terminos">Términos y Usos</a>
-            </div>
-        </div>
     </div>
 </nav>
 
