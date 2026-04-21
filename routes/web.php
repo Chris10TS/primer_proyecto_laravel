@@ -20,7 +20,18 @@ Route::get('/quienes-somos', function () {
     return view('quienes-somos');
 });
 
-Route::get('/producto/{id}', function ($id) {
-    return view('producto', ['id' => $id]);
+Route::get('/comercializacion', function () {
+    return view('comercializacion');
 });
 
+Route::get('/contacto-oga', function () {
+    return view('contacto-oga');
+});
+
+Route::get('/terminos', function () {
+    return view('terminos');
+});
+
+Route::get('/catalogo', function () {
+    return view('catalogo');
+});
