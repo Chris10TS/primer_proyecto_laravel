@@ -35,3 +35,11 @@ Route::get('/terminos', function () {
 Route::get('/catalogo', function () {
     return view('catalogo');
 });
+
+Route::get('/productos/camara-seguridade107', function () {
+    return view('productos.camara-seguridade107');
+});
+
+Route::get('/productos/camara-seguridade126', function () {
+    return view('productos.camara-seguridade126');
+});

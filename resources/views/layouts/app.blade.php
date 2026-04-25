@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda OGA - @yield('titulo')</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">    
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 </head>
 <body>
 
-<div class="d-flex gap-3 bg-red p-2 justify-content-center">
-        <a class="nav-link menu-link" href="/inicio">Inicio</a>
-        <a class="nav-link menu-link" href="/quienes-somos">Quiénes Somos</a>
-        <a class="nav-link menu-link" href="/catalogo">Catálogo</a>
-        <a class="nav-link menu-link" href="/comercializacion">Comercialización</a>
-        <a class="nav-link menu-link" href="/consultas">Consultas</a>
-        <a class="nav-link menu-link" href="/contacto-oga">Contacto</a>
-        <a class="nav-link menu-link" href="/terminos">Términos y Usos</a>
 
+<div class="bg-dark py-1">
+    <div class="container d-flex justify-content-center gap-4">
+        <a class="nav-link text-white menu-link" href="/inicio">Inicio</a>
+        <a class="nav-link text-white menu-link" href="/quienes-somos">Quiénes Somos</a>
+        <a class="nav-link text-white menu-link" href="/catalogo">Catálogo</a>
+        <a class="nav-link text-white menu-link" href="/comercializacion">Comercialización</a>
+        <a class="nav-link text-white menu-link" href="/consultas">Consultas</a>
+        <a class="nav-link text-white menu-link" href="/contacto-oga">Contacto</a>
+        <a class="nav-link text-white menu-link" href="/terminos">Términos y Usos</a>
+    </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<nav class="navbar navbar-light bg-white border-bottom shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="/inicio">Tienda OGA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+
+        
+        <a class="navbar-brand fw-bold fs-3" href="/inicio">Tienda OGA</a>
+
+       
+        <form class="d-flex flex-grow-1 mx-4">
+            <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y más...">
+            <button class="btn btn-dark" type="submit">Buscar</button>
+        </form>
+
+        
+        <a href="#" class="btn btn-outline-dark position-relative">
+            <i class="ti ti-shopping-cart fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                0
+            </span>
+        </a>
+
     </div>
 </nav>
 
