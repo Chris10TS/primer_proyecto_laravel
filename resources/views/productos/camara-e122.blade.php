@@ -12,8 +12,8 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
             <li class="breadcrumb-item"><a href="/catalogo">Catálogo</a></li>
-            <li class="breadcrumb-item"><a href="/catalogo-invierno">Invierno</a></li>
-            <li class="breadcrumb-item active">Estufa Bionica</li>
+            <li class="breadcrumb-item"><a href="/catalogo-seguridad">Seguridad</a></li>
+            <li class="breadcrumb-item active">Kit 8 camaras</li>
         </ol>
     </nav>
 
@@ -29,7 +29,7 @@
         {{-- Columna central: info del producto --}}
         <div class="col-md-4">
             <span class="badge bg-success mb-2">MÁS VENDIDO</span>
-            <h1 class="fs-4 fw-bold">Estufa Infrarroja Lilliana</h1>
+            <h1 class="fs-4 fw-bold">Kit 8 camaras + DVR + Cables LUO e122</h1>
 
             {{-- Estrellas --}}
             <div class="d-flex align-items-center gap-2 mb-3">
@@ -38,18 +38,18 @@
             </div>
 
             {{-- Precio --}}
-            <p class="text-muted text-decoration-line-through mb-0">$39.999</p>
+            <p class="text-muted text-decoration-line-through mb-0">$300.000</p>
             <div class="d-flex align-items-center gap-2 mb-1">
-                <span class="fs-2 fw-bold">$46.059</span>
-                <span class="badge bg-success fs-6">22% OFF</span>
+                <span class="fs-2 fw-bold">$231.000</span>
+                <span class="badge bg-success fs-6">23% OFF</span>
             </div>
-            <p class="text-muted mb-3">6 cuotas de $7.696 sin interés</p>
+            <p class="text-muted mb-3">6 cuotas de $38.500 sin interés</p>
 
             {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
-                <li><i class="ti ti-check"></i>Voltaje: 220V.</li>
-                <li><i class="ti ti-check"></i>Marca: Lilliana.</li>
-                <li><i class="ti ti-check"></i>Potencia máxima de 2000 W</li>
+                <li><i class="ti ti-check"></i>Resolucion: HD 4K.</li>
+                <li><i class="ti ti-check"></i>Marca: LUO.</li>
+                <li><i class="ti ti-check"></i>8 Camaras + DVR</li>
             </ul>
 
             {{-- Stock --}}
@@ -89,12 +89,12 @@
         <div class="col-12">
             <div class="cardP p-4">
                 <h3 class="fw-bold mb-3">Descripción del producto</h3>
-                <p>La <strong>Cámara de Seguridad WiFi LUO E107</strong> es la solución ideal para proteger tu hogar o negocio. Con resolución Full HD 1080p y visión nocturna de hasta 20 metros, podés monitorear todo desde tu celular en tiempo real.</p>
+                <p>La <strong>Cámara de Seguridad WiFi LUO E122</strong> es la solución ideal para proteger tu hogar o negocio. Con resolución Full HD 1080p y visión nocturna de hasta 20 metros, podés monitorear todo desde tu celular en tiempo real.</p>
                 <h5 class="mt-3">Especificaciones técnicas</h5>
                 <table class="table table-bordered">
                     <tbody>
                         <tr><td><strong>Marca</strong></td><td>LUO</td></tr>
-                        <tr><td><strong>Modelo</strong></td><td>E107</td></tr>
+                        <tr><td><strong>Modelo</strong></td><td>E122</td></tr>
                         <tr><td><strong>Resolución</strong></td><td>1080p Full HD</td></tr>
                         <tr><td><strong>Conectividad</strong></td><td>WiFi 2.4GHz</td></tr>
                         <tr><td><strong>Visión nocturna</strong></td><td>Hasta 20 metros</td></tr>
@@ -146,7 +146,7 @@
                         <span class="text-muted small">Marzo 2026</span>
                     </div>
                     <span class="text-warning">★★★☆☆</span>
-                    <p class="mt-1 mb-0">Buena Estufa, me mantiene caliente.</p>
+                    <p class="mt-1 mb-0">Buena Camara, buena calidad.</p>
                 </div>
 
             </div>

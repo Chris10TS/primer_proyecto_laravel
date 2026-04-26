@@ -159,7 +159,7 @@
 <div class="container my-5">
     <div class="d-flex justify-content-between align-items-baseline mb-3">
         <h3 class="fw-light">Todo Para La <span class="fw-bold">Seguridad De Tu Hogar</span></h3>
-        <a href="/catalogo" class="text-decoration-none">Ver todas</a>
+        <a href="/catalogo-seguridad" class="text-decoration-none">Ver todas</a>
     </div>
 
     <div class="d-flex overflow-auto pb-3 gap-3" style="scrollbar-width: thin;">
@@ -169,12 +169,12 @@
             <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="card-img-top p-3" alt="Estufa">
             <div class="card-body border-top">
                 <p class="text-truncate mb-1" style="font-size: 0.9rem;">Camara Seguridad Exterior Wifi Doble Visor LUO e107</p>
-                <span class="text-muted text-decoration-line-through small">$33.538</span>
+                <span class="text-muted text-decoration-line-through small">$65.000</span>
                 <div class="d-flex align-items-center gap-2">
                     <h4 class="mb-0">$50.000</h4>
                     <span class="text-success small fw-bold">30% OFF</span>
                 </div>
-                <p class="text-primary small mb-1">6 cuotas de $8.600</p>
+                <p class="text-primary small mb-1">6 cuotas de $8.333</p>
                 <p class="text-success fw-bold small mb-0">Envío gratis</p>
             </div>
         </div>
@@ -216,7 +216,7 @@
         <div class="card border-0 shadow-sm" style="min-width: 220px; max-width: 220px;">
             <img src="{{ asset('images/img-products/kit-camaras-e122.png') }}" class="card-img-top p-3" alt="Estufa">
             <div class="card-body border-top">
-                <p class="text-truncate mb-1" style="font-size: 0.9rem;">Kit 4 camaras + DVR + Cables LUO e121</p>
+                <p class="text-truncate mb-1" style="font-size: 0.9rem;">Kit 8 camaras + DVR + Cables LUO e121</p>
                 <span class="text-muted text-decoration-line-through small">$300.000</span>
                 <div class="d-flex align-items-center gap-2">
                     <h4 class="mb-0">$231.000</h4>
@@ -235,20 +235,20 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-baseline mb-3">
             <h3 class="fw-light text-white">Especial Mundial: <span class="fw-bold">Televisores y Sonido</span></h3>
-            <a href="/catalogo" class="text-white text-decoration-none fw-bold">Ver todas las ofertas</a>
+            <a href="/catalogo-televisores" class="text-white text-decoration-none fw-bold">Ver todas las ofertas</a>
         </div>
 
         <div class="d-flex justify-content-center pb-3 gap-3 flex-wrap">
             
             <div style="min-width: 240px; max-width: 240px;">
-                <a href="/productos/televisor-43" class="text-decoration-none text-dark">
+                <a href="/productos/televisor-50" class="text-decoration-none text-dark">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('images/img-products/television-43.png') }}" class="card-img-top p-3" alt="TV">
                         <div class="card-body border-top">
                             <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 50" 4K UHD Ultra Slim</p>
-                            <span class="text-muted text-decoration-line-through small">$450.000</span>
+                            <span class="text-muted text-decoration-line-through small">$575.000</span>
                             <div class="d-flex align-items-center gap-2">
-                                <h4 class="mb-0">$380.000</h4>
+                                <h4 class="mb-0">$500.000</h4>
                                 <span class="text-success small fw-bold">15% OFF</span>
                             </div>
                             <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>

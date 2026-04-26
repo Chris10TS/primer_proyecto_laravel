@@ -12,7 +12,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
             <li class="breadcrumb-item"><a href="/catalogo">Catálogo</a></li>
-            <li class="breadcrumb-item"><a href="/catalogo#seguridad">Seguridad</a></li>
+            <li class="breadcrumb-item"><a href="/catalogo-seguridad">Seguridad</a></li>
             <li class="breadcrumb-item active">Cámara LUO E126</li>
         </ol>
     </nav>
@@ -24,11 +24,6 @@
             <div class="card p-3 text-center">
                 <img src="{{ asset('images/img-products/camara-luo-e126.png') }}" class="img-fluid rounded" alt="Cámara LUO E107" style="max-height: 350px; object-fit: contain;">
             </div>
-            <div class="d-flex gap-2 mt-2">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-            </div>
         </div>
 
         {{-- Columna central: info del producto --}}
@@ -38,35 +33,35 @@
 
             {{-- Estrellas --}}
             <div class="d-flex align-items-center gap-2 mb-3">
-                <span class="text-warning fs-5">★★★★☆</span>
-                <span class="text-muted">(128 opiniones)</span>
+                <span class="text-warning fs-5">★★★★★</span>
+                <span class="text-muted">(126 opiniones)</span>
             </div>
 
             {{-- Precio --}}
             <p class="text-muted text-decoration-line-through mb-0">$89.999</p>
             <div class="d-flex align-items-center gap-2 mb-1">
                 <span class="fs-2 fw-bold">$60.000</span>
-                <span class="badge bg-success fs-6">22% OFF</span>
+                <span class="badge bg-success fs-6">33% OFF</span>
             </div>
-            <p class="text-muted mb-3">6 cuotas de $5.833 sin interés</p>
+            <p class="text-muted mb-3">6 cuotas de $10.000 sin interés</p>
 
             {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
-                <li>✅ Resolución Full HD 1080p</li>
-                <li>✅ Visión nocturna hasta 20 metros</li>
-                <li>✅ Conexión WiFi 2.4GHz</li>
-                <li>✅ Acceso remoto desde el celular</li>
-                <li>✅ Resistente al agua IP66</li>
+                <li><i class="ti ti-check"></i>Resolución Full HD 1080p</li>
+                <li><i class="ti ti-check"></i>Visión nocturna hasta 20 metros</li>
+                <li><i class="ti ti-check"></i>Conexión WiFi 2.4GHz</li>
+                <li><i class="ti ti-check"></i>Acceso remoto desde el celular</li>
+                <li><i class="ti ti-check"></i>Resistente al agua IP66</li>
             </ul>
 
             {{-- Stock --}}
-            <p class="text-success fw-bold">✅ Stock disponible</p>
+            <p class="text-success fw-bold"><i class="ti ti-circle-check"></i>Stock disponible</p>
         </div>
 
         {{-- Columna derecha: compra --}}
         <div class="col-md-3">
             <div class="card p-3">
-                <p class="text-success fw-bold mb-1">🚚 Envío gratis en Corrientes</p>
+                <p class="text-success fw-bold mb-1"><i class="ti ti-truck-delivery"></i>Envío gratis en Corrientes</p>
                 <p class="text-muted small mb-3">Envío gratis a partir de $100.000 al resto del país</p>
 
                 <label class="form-label fw-bold">Cantidad</label>
@@ -96,12 +91,12 @@
         <div class="col-12">
             <div class="cardP p-4">
                 <h3 class="fw-bold mb-3">Descripción del producto</h3>
-                <p>La <strong>Cámara de Seguridad WiFi LUO E107</strong> es la solución ideal para proteger tu hogar o negocio. Con resolución Full HD 1080p y visión nocturna de hasta 20 metros, podés monitorear todo desde tu celular en tiempo real.</p>
+                <p>La <strong>Cámara de Seguridad WiFi LUO E126</strong> es la solución ideal para proteger tu hogar o negocio. Con resolución Full HD 1080p y visión nocturna de hasta 20 metros, podés monitorear todo desde tu celular en tiempo real.</p>
                 <h5 class="mt-3">Especificaciones técnicas</h5>
                 <table class="table table-bordered">
                     <tbody>
                         <tr><td><strong>Marca</strong></td><td>LUO</td></tr>
-                        <tr><td><strong>Modelo</strong></td><td>E107</td></tr>
+                        <tr><td><strong>Modelo</strong></td><td>E126</td></tr>
                         <tr><td><strong>Resolución</strong></td><td>1080p Full HD</td></tr>
                         <tr><td><strong>Conectividad</strong></td><td>WiFi 2.4GHz</td></tr>
                         <tr><td><strong>Visión nocturna</strong></td><td>Hasta 20 metros</td></tr>

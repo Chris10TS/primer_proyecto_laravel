@@ -15,7 +15,7 @@
     <div class="col-md-4 mb-3">
         <div class="card h-100 text-center p-3">
             <div class="card-body">
-                <h2>🚚</h2>
+                <i class="ti ti-truck"></i>
                 <h4 class="card-title">Envíos</h4>
                 <p class="card-text">Realizamos envíos a todo el país. Los envíos dentro de Corrientes son <strong>completamente gratis</strong>.</p>
                 <p class="card-text">Envío gratis a partir de <strong>$100.000</strong> en todo el país.</p>
