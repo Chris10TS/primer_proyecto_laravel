@@ -14,15 +14,21 @@
 
     <div class="carousel-inner rounded">
         <div class="carousel-item active" data-bs-interval="3000">
-            <img src="{{ asset('images/img-descounts/img-descuento-mundial.png') }}" class="d-block w-100" alt="Promoción Zapatillas">
+            <img src="{{ asset('images/img-descounts/img-mundial.png') }}" class="d-block w-100 object-fit-cover" 
+     style="height: 300px;" 
+     alt="Promoción">
         </div>
 
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="{{ asset('images/img-descounts/img-descuento-seguridad.png') }}" class="d-block w-100" alt="Promoción Tecnología">
+            <img src="{{ asset('images/img-descounts/img-descuento-seguridad.png') }}" class="d-block w-100 object-fit-cover" 
+     style="height: 300px;" 
+     alt="Promoción Tecnología">
         </div>
 
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="{{ asset('images/img-descounts/img-mundial.png') }}" class="d-block w-100" alt="Promoción Hogar">
+            <img src="{{ asset('images/img-descounts/img-descuento-invierno.png') }}" class="d-block w-100 object-fit-cover" 
+     style="height: 300px;" 
+     alt="Promoción Hogar">
         </div>
     </div>
 
