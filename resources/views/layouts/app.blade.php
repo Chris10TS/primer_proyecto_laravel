@@ -12,44 +12,48 @@
 </head>
 <body>
 
-
-<div class="bg-dark py-1">
-    <div class="container d-flex justify-content-center gap-4">
-        <a class="nav-link text-white menu-link" href="/inicio">Inicio</a>
-        <a class="nav-link text-white menu-link" href="/catalogo">Catálogo</a>
-        <a class="nav-link text-white menu-link" href="/comercializacion">Comercialización</a>
-        <a class="nav-link text-white menu-link" href="/contacto-oga">Contacto</a>
-    </div>
-</div>
-
-
-<nav class="navbar navbar-light border-bottom shadow-sm" style="background-color: #F5793A;">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: #F5793A;">
     <div class="container">
-
         
-        <a class="navbar-brand" href="/inicio">
-        <img src="{{ asset('images/img-products/logos.png') }}" alt="Logo Oga" height="70">
+        {{-- Logo --}}
+        <a class="navbar-brand me-4" href="/inicio">
+            <img src="{{ asset('images/img-products/logos.png') }}" alt="Logo Oga" height="60">
         </a>
 
-       
-        <form class="d-flex flex-grow-1 mx-4">
-            <div class="input-group buscador">
-                <input class="form-control" type="search" placeholder="Buscar productos, marcas y más..." aria-label="Buscar">
-                <button type="submit">
-                    <i class="ti ti-search"></i>
-                </button>
+        {{-- Botón para celulares --}}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContenido">
+            {{-- Buscador --}}
+            <form class="d-flex flex-grow-1 mx-lg-4 my-3 my-lg-0">
+                <div class="input-group buscador w-100">
+                    <input class="form-control" type="search" placeholder="Buscar productos, marcas y más..." aria-label="Buscar">
+                    <button class="btn btn-white bg-white border-start-0" type="submit" style="border: 1px solid #ced4da;">
+                        <i class="ti ti-search text-muted"></i>
+                    </button>
+                </div>
+            </form>
+
+            {{-- Links de Navegación --}}
+            <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-2">
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/catalogo">Catálogo</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/comercializacion">Comercialización</a></li>
+                <li class="nav-item"><a class="nav-link text-white fw-semibold" href="/contacto-oga">Contacto</a></li>
+            </ul>
+
+            {{-- Carrito --}}
+            <div class="ms-lg-3 d-none d-lg-block">
+                <a href="#" class="position-relative">
+                    <img src="/images/carrito.png" class="icono-carrito" alt="carrito" style="height: 35px;">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </a>
             </div>
-        </form>
-
-        
-        <a href="#" class="btn btn-outline-dark position-relative">
-            <img src="/images/carrito.png" class="icono-carrito" alt="carrito">
-    
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                0
-            </span>
-        </a>        
-
+        </div>
     </div>
 </nav>
 
@@ -84,8 +88,8 @@
                 <div class="col-md-3">
                     <h6 class="text-dark fw-bold">Redes sociales</h6>
                     <ul class="list-unstyled small">
-                        <li><a href="#" class="text-muted text-decoration-none"><i class="ti ti-brand-facebook"></i> Facebook</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none"><i class="ti ti-brand-instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/marketplace/profile/61565914446195/?ref=permalink&mibextid=6ojiHh" class="text-muted text-decoration-none"><i class="ti ti-brand-facebook"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/tiendaogaarg?igsh=MWlncjZlYTdvcXRxaw%3D%3D&utm_source=qr" class="text-muted text-decoration-none"><i class="ti ti-brand-instagram"></i> Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

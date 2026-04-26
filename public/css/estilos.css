@@ -58,3 +58,19 @@
 .icono-carrito:hover {
     transform: scale(1.1);
 }
+
+/* Asegura que el botón de la lupa no tenga bordes raros dentro del Navbar */
+.buscador .btn {
+    border-left: none !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.buscador .form-control {
+    border-radius: 4px 0 0 4px !important;
+}
+
+/* Efecto para los links del navbar */
+.nav-link:hover {
+    color: #333 !important; /* Cambia a gris oscuro al pasar el mouse */
+    transition: 0.3s;
+}
