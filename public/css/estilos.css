@@ -19,7 +19,42 @@
     color: #ffc107 !important;
 }
 
-.carousel-fullwidth .carousel-item img {
-    height: 450px;
-    object-fit: cover;
+.buscador {
+    background-color: #ededed;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.buscador input {
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.buscador button {
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    color: #666;
+}
+
+.buscador button:hover {
+    color: #000;
+}
+
+.icono-carrito {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #F5793A;
+}
+
+.icono-carrito:hover {
+    transform: scale(1.1);
 }

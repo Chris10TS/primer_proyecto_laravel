@@ -18,11 +18,11 @@
         </div>
 
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="{{ asset('images/banner2.png') }}" class="d-block w-100" alt="Promoción Tecnología">
+            <img src="{{ asset('images/img-descounts/img-descuento-seguridad.png') }}" class="d-block w-100" alt="Promoción Tecnología">
         </div>
 
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="{{ asset('images/banner3.png') }}" class="d-block w-100" alt="Promoción Hogar">
+            <img src="{{ asset('images/img-descounts/img-mundial.png') }}" class="d-block w-100" alt="Promoción Hogar">
         </div>
     </div>
 
@@ -231,46 +231,58 @@
 
         <div class="d-flex justify-content-center pb-3 gap-3 flex-wrap">
             
-            <div class="card border-0 shadow" style="min-width: 240px; max-width: 240px;">
-                <img src="{{ asset('images/img-products/television-43.png') }}" class="card-img-top p-3" alt="TV">
-                <div class="card-body border-top">
-                    <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 50" 4K UHD Ultra Slim</p>
-                    <span class="text-muted text-decoration-line-through small">$450.000</span>
-                    <div class="d-flex align-items-center gap-2">
-                        <h4 class="mb-0">$380.000</h4>
-                        <span class="text-success small fw-bold">15% OFF</span>
+            <div style="min-width: 240px; max-width: 240px;">
+                <a href="/productos/televisor-43" class="text-decoration-none text-dark">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('images/img-products/television-43.png') }}" class="card-img-top p-3" alt="TV">
+                        <div class="card-body border-top">
+                            <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 50" 4K UHD Ultra Slim</p>
+                            <span class="text-muted text-decoration-line-through small">$450.000</span>
+                            <div class="d-flex align-items-center gap-2">
+                                <h4 class="mb-0">$380.000</h4>
+                                <span class="text-success small fw-bold">15% OFF</span>
+                            </div>
+                            <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
+                            <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
+                        </div>
                     </div>
-                    <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
-                    <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
-                </div>
+                </a>
             </div>
 
-            <div class="card border-0 shadow" style="min-width: 240px; max-width: 240px;">
-                <img src="{{ asset('images/img-products/tv-32.png') }}" class="card-img-top p-3" alt="TV">
-                <div class="card-body border-top">
-                    <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 32" 4K UHD Ultra Slim</p>
-                    <span class="text-muted text-decoration-line-through small">$450.000</span>
-                    <div class="d-flex align-items-center gap-2">
-                        <h4 class="mb-0">$380.000</h4>
-                        <span class="text-success small fw-bold">15% OFF</span>
+            <div style="min-width: 240px; max-width: 240px;">
+                <a href="/productos/televisor-32" class="text-decoration-none text-dark">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('images/img-products/tv-32.png') }}" class="card-img-top p-3" alt="TV">
+                        <div class="card-body border-top">
+                            <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 32" 4K UHD Ultra Slim</p>
+                            <span class="text-muted text-decoration-line-through small">$450.000</span>
+                            <div class="d-flex align-items-center gap-2">
+                                <h4 class="mb-0">$380.000</h4>
+                                <span class="text-success small fw-bold">15% OFF</span>
+                            </div>
+                            <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
+                            <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
+                        </div>
                     </div>
-                    <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
-                    <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
-                </div>
+                </a>
             </div>
 
-            <div class="card border-0 shadow" style="min-width: 240px; max-width: 240px;">
-                <img src="{{ asset('images/img-products/tv-55.png') }}" class="card-img-top p-3" alt="TV">
-                <div class="card-body border-top">
-                    <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV " 4K UHD Ultra Slim</p>
-                    <span class="text-muted text-decoration-line-through small">$650.000</span>
-                    <div class="d-flex align-items-center gap-2">
-                        <h4 class="mb-0">$550.000</h4>
-                        <span class="text-success small fw-bold">15% OFF</span>
+            <div style="min-width: 240px; max-width: 240px;">
+                <a href="/productos/televisor-55" class="text-decoration-none text-dark">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('images/img-products/tv-55.png') }}" class="card-img-top p-3" alt="TV">
+                        <div class="card-body border-top">
+                            <p class="text-truncate mb-1" style="font-size: 0.9rem;">Smart TV 55" 4K UHD Ultra Slim</p>
+                            <span class="text-muted text-decoration-line-through small">$650.000</span>
+                            <div class="d-flex align-items-center gap-2">
+                                <h4 class="mb-0">$550.000</h4>
+                                <span class="text-success small fw-bold">15% OFF</span>
+                            </div>
+                            <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
+                            <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
+                        </div>
                     </div>
-                    <p class="text-primary small mb-1">12 cuotas <span class="fw-bold">sin interés</span></p>
-                    <p class="text-success fw-bold small mb-0">Envío gratis <i class="ti ti-truck-delivery"></i></p>
-                </div>
+                </a>
             </div>
 
         </div>

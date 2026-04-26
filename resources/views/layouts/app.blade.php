@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">    
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
 
@@ -36,17 +36,22 @@
 
        
         <form class="d-flex flex-grow-1 mx-4">
-            <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y más...">
-            <button class="btn btn-dark" type="submit">Buscar</button>
+            <div class="input-group buscador">
+                <input class="form-control" type="search" placeholder="Buscar productos, marcas y más..." aria-label="Buscar">
+                <button type="submit">
+                    <i class="ti ti-search"></i>
+                </button>
+            </div>
         </form>
 
         
         <a href="#" class="btn btn-outline-dark position-relative">
-            <i class="ti ti-shopping-cart fs-5"></i>
+            <img src="/images/carrito.png" class="icono-carrito" alt="carrito">
+    
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 0
             </span>
-        </a>
+        </a>        
 
     </div>
 </nav>
