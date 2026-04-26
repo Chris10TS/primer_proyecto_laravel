@@ -65,8 +65,8 @@ Route::get('/productos/televisor-32', function () {
     return view('productos.televisor-32');
 });
 
-Route::get('/productos/televisor-43', function () {
-    return view('productos.televisor-43');
+Route::get('/productos/televisor-50', function () {
+    return view('productos.televisor-50');
 });
 
 Route::get('/productos/televisor-55', function () {

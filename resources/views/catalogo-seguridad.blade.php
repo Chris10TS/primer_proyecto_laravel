@@ -18,9 +18,9 @@
             <div class="card h-100">
                 <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="card-img-top" alt="Estufa">
                 <div class="card-body">
-                    <h5 class="card-title">Estufa Bionica</h5>
-                    <p class="card-text text-muted">Estufa bionica ideal para el invierno</p>
-                    <p class="fw-bold text-dark">$23.000</p>
+                    <h5 class="card-title">Cámara de Seguridad WiFi LUO E107</h5>
+                    <p class="card-text text-muted">Camara doble visor</p>
+                    <p class="fw-bold text-dark">$50.000</p>
                 </div>
             </div>
         </a>
@@ -31,9 +31,9 @@
             <div class="card h-100">
                 <img src="{{ asset('images/img-products/camara-luo-e126.png') }}" class="card-img-top" alt="Estufa">
                 <div class="card-body">
-                    <h5 class="card-title">Estufa Infrarroja Lilliana</h5>
-                    <p class="card-text text-muted"> Estufa Infrarroja Lilliana de primer nivel.</p>
-                    <p class="fw-bold text-dark">$46.059</p>
+                    <h5 class="card-title">Cámara de Seguridad WiFi LUO E126</h5>
+                    <p class="card-text text-muted">Camara triple visor</p>
+                    <p class="fw-bold text-dark">$60.000</p>
                 </div>
             </div>
         </a>
@@ -44,9 +44,9 @@
             <div class="card h-100">
                 <img src="{{ asset('images/img-products/kit-camaras-e121.png') }}" class="card-img-top" alt="Estufa">
                 <div class="card-body">
-                    <h5 class="card-title">Estufa Infrarroja Lilliana</h5>
-                    <p class="card-text text-muted"> Estufa Infrarroja Lilliana de primer nivel.</p>
-                    <p class="fw-bold text-dark">$46.059</p>
+                    <h5 class="card-title">Kit 4 camaras + DVR + Cables LUO e121</h5>
+                    <p class="card-text text-muted">Kit 4 camaras</p>
+                    <p class="fw-bold text-dark">$154.000</p>
                 </div>
             </div>
         </a>
@@ -57,9 +57,9 @@
             <div class="card h-100">
                 <img src="{{ asset('images/img-products/kit-camaras-e122.png') }}" class="card-img-top" alt="Estufa">
                 <div class="card-body">
-                    <h5 class="card-title">Estufa Infrarroja Lilliana</h5>
-                    <p class="card-text text-muted"> Estufa Infrarroja Lilliana de primer nivel.</p>
-                    <p class="fw-bold text-dark">$46.059</p>
+                    <h5 class="card-title">Kit 8 camaras + DVR + Cables LUO e122</h5>
+                    <p class="card-text text-muted">Kit 8 camaras</p>
+                    <p class="fw-bold text-dark">$231.000</p>
                 </div>
             </div>
         </a>

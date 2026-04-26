@@ -12,7 +12,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
             <li class="breadcrumb-item"><a href="/catalogo">Catálogo</a></li>
-            <li class="breadcrumb-item"><a href="/catalogo#seguridad">Seguridad</a></li>
+            <li class="breadcrumb-item"><a href="/catalogo-seguridad">Seguridad</a></li>
             <li class="breadcrumb-item active">Cámara LUO E107</li>
         </ol>
     </nav>
@@ -25,9 +25,9 @@
                 <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="img-fluid rounded" alt="Cámara LUO E107" style="max-height: 350px; object-fit: contain;">
             </div>
             <div class="d-flex gap-2 mt-2">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/productos/camara.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
+                <img src="{{ asset('images/img-products/camara-luo-e107-2.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
+                <img src="{{ asset('images/img-products/camara-luo-e107-3.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
+                <img src="{{ asset('images/img-products/camara-luo-e107-4.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
             </div>
         </div>
 
@@ -43,30 +43,30 @@
             </div>
 
             {{-- Precio --}}
-            <p class="text-muted text-decoration-line-through mb-0">$45.000</p>
+            <p class="text-muted text-decoration-line-through mb-0">$65.000</p>
             <div class="d-flex align-items-center gap-2 mb-1">
-                <span class="fs-2 fw-bold">$35.000</span>
-                <span class="badge bg-success fs-6">22% OFF</span>
+                <span class="fs-2 fw-bold">$50.000</span>
+                <span class="badge bg-success fs-6">30% OFF</span>
             </div>
-            <p class="text-muted mb-3">6 cuotas de $5.833 sin interés</p>
+            <p class="text-muted mb-3">6 cuotas de $8.333 sin interés</p>
 
             {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
-                <li>✅ Resolución Full HD 1080p</li>
-                <li>✅ Visión nocturna hasta 20 metros</li>
-                <li>✅ Conexión WiFi 2.4GHz</li>
-                <li>✅ Acceso remoto desde el celular</li>
-                <li>✅ Resistente al agua IP66</li>
+                <li><i class="ti ti-check"></i>Resolución Full HD 1080p</li>
+                <li><i class="ti ti-check"></i>Visión nocturna hasta 20 metros</li>
+                <li><i class="ti ti-check"></i>Conexión WiFi 2.4GHz</li>
+                <li><i class="ti ti-check"></i>Acceso remoto desde el celular</li>
+                <li><i class="ti ti-check"></i>Resistente al agua IP66</li>
             </ul>
 
             {{-- Stock --}}
-            <p class="text-success fw-bold">✅ Stock disponible</p>
+            <p class="text-success fw-bold"><i class="ti ti-circle-check"></i>Stock disponible</p>
         </div>
 
         {{-- Columna derecha: compra --}}
         <div class="col-md-3">
             <div class="card p-3">
-                <p class="text-success fw-bold mb-1">🚚 Envío gratis en Corrientes</p>
+                <p class="text-success fw-bold mb-1"><i class="ti ti-truck-delivery"></i>Envío gratis en Corrientes</p>
                 <p class="text-muted small mb-3">Envío gratis a partir de $100.000 al resto del país</p>
 
                 <label class="form-label fw-bold">Cantidad</label>
