@@ -89,4 +89,11 @@ Route::get('/productos/manta-magica', function () {
     return view('productos.manta-magica');
 });
 
-Route::post('/contacto-oga', [ContactoOgaController::class, 'procesar']);
+Route::get('/consultas', function () {
+    return view('consultas');
+});
+
+use App\Http\Controllers\CarritoController;
+
+Route::get('/carrito', [CarritoController::class, 'ver'])->name('carrito');
+Route::post('/compra-exitosa', [CarritoController::class, 'confirmar'])->name('carrito.confirmar');

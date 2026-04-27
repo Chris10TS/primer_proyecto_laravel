@@ -44,7 +44,7 @@
 
 <div class="container">
 
-<h2 class="mb-4">Nuestras Categorías</h2>
+<h2 class="mb-4"><span class="fw-bold">Mas Vendidos</span></h2>
 
 <div class="row">
     <div class="col-md-4 mb-3">
@@ -298,13 +298,19 @@
     </div>
 </div>
 
+<div class="container-fluid p-0 mb-5">
+    <img src="{{ asset('images/img-descounts/img-messi.png') }}" 
+         class="img-fluid w-100 d-block img-promo-larga" 
+         alt="Promo Messi">
+</div>
+
 <hr class="my-5">
 <div class="row text-center mb-5">
     <div class="col-md-4 px-4 border-end border-md-end-0">
         <i class="ti ti-credit-card fs-1 text-primary mb-3"></i>
         <h5>Elegí cómo pagar</h5>
         <p class="text-muted small">Podés pagar con tarjeta, débito, efectivo o transferencia bancaria.</p>
-        <a href="/consultas" class="text-decoration-none">Cómo pagar tus compras</a>
+        <a href="/comercializacion" class="text-decoration-none">Cómo pagar tus compras</a>
     </div>
 
     <div class="col-md-4 px-4 border-end border-md-end-0">
