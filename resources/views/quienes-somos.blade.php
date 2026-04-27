@@ -5,32 +5,38 @@
 @section('contenido')
 
 <div class="row mb-5">
-    <div class="col-12">
+    <div class="col-12 titulo">
         <h1 class="fw-bold">Quiénes Somos</h1>
         <hr>
     </div>
 </div>
 
-<div class="row mb-5">
-    <div class="col-md-6">
+
+    <div class="contenedor">
         <h2>Nuestra Historia</h2>
-        <p>Tienda OGA nació en el año 2020, en plena pandemia, con la idea de ofrecer productos de calidad a precios accesibles. Lo que comenzó como un emprendimiento familiar se convirtió en una tienda multirrubro de confianza para cientos de clientes.</p>
-        <p>Con 6 años de experiencia, hoy ofrecemos desde tecnología como TV Box y proyectores, hasta artículos para mascotas, hogar y mucho más.</p>
+        <p>Tienda OGA nació en el año 2020, en plena pandemia, con la idea de ofrecer productos de calidad a precios accesibles. Lo que comenzó como un emprendimiento familiar, con pocos productos y ventas a través de redes sociales, fue creciendo gracias a la confianza de nuestros clientes y al compromiso constante con el servicio.</p>
+        <p>Con el paso del tiempo, fuimos ampliando nuestro catálogo e incorporando nuevas categorías, adaptándonos a las necesidades del mercado. Hoy contamos con más de 6 años de experiencia, ofreciendo desde tecnología como TV Box y proyectores, hasta artículos para mascotas, hogar y mucho más. Nuestro crecimiento se basa en la cercanía con el cliente y en la mejora continua.</p>
     </div>
-    <div class="col-md-6">
+
+    <div class="contenedor">
         <h2>Nuestra Misión</h2>
-        <p>Brindar a nuestros clientes la mejor experiencia de compra, con productos de calidad, atención personalizada y envíos a todo el país.</p>
-        <h2 class="mt-4">Nuestra Visión</h2>
-        <p>Convertirnos en la tienda multirrubro de referencia de la región, creciendo junto a nuestros clientes y adaptándonos siempre a sus necesidades.</p>
+        <p>Brindar a nuestros clientes la mejor experiencia de compra, ofreciendo productos de calidad, precios competitivos y una atención personalizada que genere confianza. Nos enfocamos en acompañar al cliente en todo el proceso, desde la elección del producto hasta la entrega final.</p>
+        <p>Además, buscamos facilitar el acceso a la tecnología y a productos útiles para el día a día, garantizando envíos rápidos y seguros a todo el país, con un servicio que se destaque por su responsabilidad y compromiso.</p>
     </div>
-</div>
+        
+    <div class="contenedor">    
+        <h2 >Nuestra Visión</h2>
+        <p>Convertirnos en la tienda multirrubro de referencia de la región, reconocida por la calidad de sus productos, la confianza que genera en sus clientes y su constante innovación. Aspiramos a seguir creciendo de manera sostenida, incorporando nuevas tecnologías y mejorando nuestros servicios.</p>
+        <p>Queremos construir una marca sólida, cercana y confiable, que acompañe a nuestros clientes en sus necesidades diarias, adaptándonos a los cambios del mercado y manteniendo siempre un enfoque centrado en el cliente.</p>
+    </div>
+
 
 <div class="row mb-5">
     <div class="col-12">
-        <h2 class="mb-4">Nuestro Equipo</h2>
+        <h2 class="mb-4 titulo">Nuestro Equipo</h2>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card h-100 text-center p-3">
+        <div class="card h-100 text-center p-3 contenedor-estatico">
             <div class="card-body">
                 <h4 class="card-title">Christian Gomez</h4>
                 <p class="text-muted">Fundador</p>
@@ -39,7 +45,7 @@
         </div>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card h-100 text-center p-3">
+        <div class="card h-100 text-center p-3 contenedor-estatico">
             <div class="card-body">
                 <h4 class="card-title">Agustina Gomez</h4>
                 <p class="text-muted">Programadora</p>

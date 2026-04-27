@@ -25,7 +25,7 @@
                         <div class="position-absolute p-2">
                             <span class="badge bg-success">30% OFF</span>
                         </div>
-                        <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="card-img-top p-3" alt="Cámara">
+                        <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="card-img-top imagen-producto p-3" alt="Cámara">
                         <div class="card-body border-top">
                             <p class="text-truncate mb-1 small">Cámara Exterior Wifi LUO e107</p>
                             <span class="text-muted text-decoration-line-through small">$65.000</span>
@@ -43,7 +43,7 @@
                         <div class="position-absolute p-2">
                             <span class="badge bg-success">30% OFF</span>
                         </div>
-                        <img src="{{ asset('images/img-products/estufa-bionica.png') }}" class="card-img-top p-3" alt="Estufa">
+                        <img src="{{ asset('images/img-products/estufa-bionica.png') }}" class="card-img-top imagen-producto p-3" alt="Estufa">
                         <div class="card-body border-top">
                             <p class="text-truncate mb-1 small">Calefactor Convector 1500w</p>
                             <span class="text-muted text-decoration-line-through small">$33.538</span>
@@ -61,7 +61,7 @@
                         <div class="position-absolute p-2">
                             <span class="badge bg-success">15% OFF</span>
                         </div>
-                        <img src="{{ asset('images/img-products/television-43.png') }}" class="card-img-top p-3" alt="TV">
+                        <img src="{{ asset('images/img-products/television-43.png') }}" class="card-img-top imagen-producto p-3" alt="TV">
                         <div class="card-body border-top">
                             <p class="text-truncate mb-1 small">Smart TV 50" 4K UHD Slim</p>
                             <span class="text-muted text-decoration-line-through small">$575.000</span>
@@ -79,7 +79,7 @@
                         <div class="position-absolute p-2">
                             <span class="badge bg-success">6% OFF</span>
                         </div>
-                        <img src="{{ asset('images/img-products/manta-riverplate.png') }}" class="card-img-top p-3" alt="Manta">
+                        <img src="{{ asset('images/img-products/manta-riverplate.png') }}" class="card-img-top imagen-producto p-3" alt="Manta">
                         <div class="card-body border-top">
                             <p class="text-truncate mb-1 small">Manta Mágica River Plate</p>
                             <span class="text-muted text-decoration-line-through small">$15.898</span>

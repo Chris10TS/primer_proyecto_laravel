@@ -15,24 +15,24 @@
 <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: #F5793A;">
     <div class="container">
         
-        {{-- Logo --}}
+        
         <a class="navbar-brand me-auto" href="/inicio">
             <img src="{{ asset('images/img-products/logos.png') }}" alt="Logo Oga" height="40">
         </a>
 
-        {{-- Botón Lupa (para abrir el buscador en móvil) --}}
+        
         <button class="navbar-toggler border-0 p-0 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
-            <i class="ti ti-search text-white fs-1"></i>
+            <i class="ti ti-search text-black fs-1"></i>
         </button>
 
-        {{-- CARRITO MÓVIL: Se oculta en pantallas grandes (d-lg-none) --}}
+       
         <a href="/carrito" class="btn btn-link p-0 position-relative text-white d-lg-none">
             <img src="/images/carrito.png" alt="carrito" style="height: 30px;">
             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2</span>
         </a>
 
         <div class="collapse navbar-collapse" id="navbarContenido">
-            {{-- Buscador --}}
+            
             <form class="d-flex flex-grow-1 mx-lg-4 my-3 my-lg-0">
                 <div class="input-group buscador w-100">
                     <input class="form-control" type="search" placeholder="Buscar productos..." aria-label="Buscar">
@@ -42,7 +42,7 @@
                 </div>
             </form>
 
-            {{-- CARRITO PC: Solo se ve en pantallas grandes (d-none d-lg-block) --}}
+          
             <div class="ms-lg-3 d-none d-lg-block">
                 <a href="/carrito" class="position-relative">
                     <img src="/images/carrito.png" class="icono-carrito" alt="carrito" style="height: 35px;">
@@ -53,24 +53,25 @@
     </div>
 </nav>
 
-{{-- BARRA DE CATEGORÍAS (Ahora visible en móviles también) --}}
+
 <div class="bg-white border-bottom">
     <div class="container">
         <div class="d-flex align-items-center py-2">
             
             <div class="dropdown position-static position-lg-relative">
-                <button class="btn btn-link text-dark text-decoration-none fw-bold d-flex align-items-center gap-2 p-0 dropdown-toggle shadow-none" 
+                <button class="boton-categoria-menu btn btn-link text-dark text-decoration-none fw-bold d-flex align-items-center gap-2 p-0 dropdown-toggle shadow-none" 
                         type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="ti ti-menu-2 fs-4"></i>
-                    <span class="small fw-bold">CATEGORÍAS</span>
+                    <span class="small fw-bold text-black">CATEGORÍAS</span>
                 </button>
 
-                <ul class="dropdown-menu shadow border-0 py-3 w-100-mobile">
+                <ul class="dropdown-menu shadow border-0 py-3 menu-movil">
                     <li><h6 class="dropdown-header d-lg-none">CATEGORÍAS</h6></li>
                     <li><a class="dropdown-item py-2" href="/catalogo-seguridad">Seguridad</a></li>
                     <li><a class="dropdown-item py-2" href="/catalogo-televisores">Televisores</a></li>
                     <li><a class="dropdown-item py-2" href="/catalogo-invierno">Calefacción</a></li>
                     <li><a class="dropdown-item py-2" href="/catalogo-hogar">Hogar</a></li>
+                    <li><a class="dropdown-item py-2" href="/catalogo">Todas</a></li>
                     
                     <li><hr class="dropdown-divider d-lg-none"></li>
                     <li><h6 class="dropdown-header d-lg-none">MENÚ</h6></li>
@@ -82,10 +83,10 @@
             </div>
 
             <div class="d-none d-lg-flex gap-4 ms-4">
-                <a href="/ofertas" class="text-decoration-none text-secondary small fw-bold">OFERTAS</a>
-                <a href="/consultas" class="text-decoration-none text-secondary small fw-bold">CONSULTAS</a>
-                <a href="/contacto-oga" class="text-decoration-none text-secondary small fw-bold">CONTACTOS</a>
-                <a href="/comercializacion" class="text-decoration-none text-secondary small fw-bold">COMERCIALIZACIÓN</a>
+                <a href="/ofertas" class="text-decoration-none text-black small fw-bold">OFERTAS</a>
+                <a href="/consultas" class="text-decoration-none text-black small fw-bold">CONSULTAS</a>
+                <a href="/contacto-oga" class="text-decoration-none text-black small fw-bold">CONTACTOS</a>
+                <a href="/comercializacion" class="text-decoration-none text-black small fw-bold">COMERCIALIZACIÓN</a>
             </div>
 
         </div>

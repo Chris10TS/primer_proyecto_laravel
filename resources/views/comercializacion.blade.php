@@ -13,7 +13,7 @@
 
 <div class="row mb-5">
     <div class="col-md-4 mb-3">
-        <div class="card h-100 text-center p-3">
+        <div class="card h-100 text-center contenedor-estatico">
             <div class="card-body">
                 <i class="ti ti-truck"></i>
                 <h4 class="card-title">Envíos</h4>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="col-md-4 mb-3">
-        <div class="card h-100 text-center p-3">
+        <div class="card h-100 text-center p-3 contenedor-estatico">
             <div class="card-body">
                 <i class="ti ti-credit-card"></i>  
                 <h4 class="card-title">Medios de Pago</h4>
@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="col-md-4 mb-3">
-        <div class="card h-100 text-center p-3">
+        <div class="card h-100 text-center p-3 contenedor-estatico">
             <div class="card-body">
                 <i class="ti ti-package"></i>  
                 <h4 class="card-title">Tiempos de Entrega</h4>
@@ -52,7 +52,7 @@
 
 <div class="row mb-5">
     <div class="col-12">
-        <div class="card bg-warning p-4">
+        <div class="card bg-warning p-4 contenedor-estatico">
             <h4 class="fw-bold"><i class="ti ti-truck-delivery"></i> Promoción de envío gratis</h4>
             <p class="mb-0">Realizá tu compra por un monto igual o superior a <strong>$100.000</strong> y recibí tu pedido sin costo de envío a cualquier punto del país.</p>
         </div>
@@ -60,29 +60,29 @@
 </div>
 
 <div class="row mb-5">
-    <div class="col-12">
+    <div class="col-12 ">
         <h2 class="mb-4">Preguntas Frecuentes</h2>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card p-3">
+        <div class="card p-3 contenedor-estatico">
             <h5>¿Puedo retirar mi pedido en el local?</h5>
             <p class="mb-0">Sí, podés retirar tu pedido en nuestro local ubicado en Pasaje Los Ángeles 4431, Corrientes.</p>
         </div>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card p-3">
+        <div class="card p-3 contenedor-estatico">
             <h5>¿Cómo hago el seguimiento de mi envío?</h5>
             <p class="mb-0">Una vez despachado tu pedido te enviamos el número de seguimiento por WhatsApp o email.</p>
         </div>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card p-3">
+        <div class="card p-3 contenedor-estatico">
             <h5>¿Tienen garantía los productos?</h5>
             <p class="mb-0">Sí, todos nuestros productos tienen garantía. Consultá los términos según el producto en nuestra sección de Términos y Usos.</p>
         </div>
     </div>
     <div class="col-md-6 mb-3">
-        <div class="card p-3">
+        <div class="card p-3 contenedor-estatico">
             <h5>¿Puedo devolver un producto?</h5>
             <p class="mb-0">Sí, aceptamos devoluciones dentro de los 30 días de recibido el producto, siempre que esté en condiciones originales.</p>
         </div>

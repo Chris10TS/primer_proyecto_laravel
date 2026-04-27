@@ -4,14 +4,6 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ContactoOgaController;
 
-Route::get('/sobre-mi', function () {
-return view('sobre-mi');
-});
-
-Route::get('/contacto', function () {
-    return view('contacto');
-});
-
 Route::get('/inicio', function () {
     return view('inicio');
 });
@@ -53,11 +45,11 @@ Route::get('/productos/camara-seguridade126', function () {
     return view('productos.camara-seguridade126');
 });
 
-Route::get('/productos/camara-e121', function () {
+Route::get('/productos/camara-e121', function() {
     return view('productos.camara-e121');
 });
 
-Route::get('/productos/camara-e122', function () {
+Route::get('/productos/camara-e122',function () {
     return view('productos.camara-e122');
 });
 
@@ -65,11 +57,11 @@ Route::get('/productos/televisor-32', function () {
     return view('productos.televisor-32');
 });
 
-Route::get('/productos/televisor-50', function () {
+Route::get('/productos/televisor-50', function() {
     return view('productos.televisor-50');
 });
 
-Route::get('/productos/televisor-55', function () {
+Route::get('/productos/televisor-55',function() {
     return view('productos.televisor-55');
 });
 
@@ -77,7 +69,7 @@ Route::get('/productos/estufa-bionica', function () {
     return view('productos.estufa-bionica');
 });
 
-Route::get('/productos/estufa-infrarroja', function () {
+Route::get('/productos/estufa-infrarroja', function() {
     return view('productos.estufa-infrarroja');
 });
 
@@ -85,7 +77,7 @@ Route::get('/productos/manta-river', function () {
     return view('productos.manta-river');
 });
 
-Route::get('/productos/manta-magica', function () {
+Route::get('/productos/manta-magica', function() {
     return view('productos.manta-magica');
 });
 
@@ -102,6 +94,10 @@ Route::get('/ofertas', function () {
     return view('ofertas');
 });
 
-Route::get('/catalogo-hogar', function () {
+Route::get('/catalogo-hogar', function() {
     return view('catalogo-hogar');
+});
+
+route::get('/catalogo', function() {
+    return view('catalogo');
 });
