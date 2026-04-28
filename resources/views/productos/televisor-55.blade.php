@@ -4,10 +4,8 @@
 
 @section('contenido')
 
-{{-- Sección principal del producto --}}
 <div class="container mt-4">
 
-    {{-- Breadcrumb --}}
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
@@ -19,43 +17,36 @@
 
     <div class="row mb-5">
 
-        {{-- Columna izquierda: imágenes --}}
         <div class="col-md-5">
             <div class="card4 p-3 text-center">
                 <img src="{{ asset('images/img-products/tv-55.png') }}" class="img-fluid rounded" alt="Cámara LUO E107" style="max-height: 350px; object-fit: contain;">
             </div>
         </div>
 
-        {{-- Columna central: info del producto --}}
         <div class="col-md-4">
             <span class="badge bg-success mb-2">MÁS VENDIDO</span>
             <h1 class="fs-4 fw-bold">Smart TV 55" 4K UHD Ultra Slim</h1>
 
-            {{-- Estrellas --}}
             <div class="d-flex align-items-center gap-2 mb-3">
                 <span class="text-warning fs-5">★★★★☆</span>
                 <span class="text-muted">(148 opiniones)</span>
             </div>
 
-            {{-- Precio --}}
             <p class="text-muted text-decoration-line-through mb-0">$650.000</p>
             <div class="d-flex align-items-center gap-2 mb-1">
                 <span class="fs-2 fw-bold">$550.000</span>
                 <span class="badge bg-success fs-6">15% OFF</span>
             </div>
 
-            {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
                 <li><i class="ti ti-check"></i>Resolucion: 4K HD.</li>
                 <li><i class="ti ti-check"></i>Smart</li>
                 <li><i class="ti ti-check"></i>Pack de futbol incluido</li>
             </ul>
 
-            {{-- Stock --}}
             <p class="text-success fw-bold"><i class="ti ti-circle-check"></i>Stock disponible</p>
         </div>
 
-        {{-- Columna derecha: compra --}}
         <div class="col-md-3">
             <div class="card p-3">
                 <p class="text-success fw-bold mb-1"><i class="ti ti-truck-delivery"></i>Envío gratis en Corrientes</p>
@@ -103,7 +94,6 @@
         </div>
     </div>
 
-    {{-- Opiniones --}}
     <div class="row mb-5">
         <div class="col-12">
             <div class="card4 p-4">

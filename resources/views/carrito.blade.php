@@ -5,12 +5,10 @@
 @section('contenido')
 <div class="container my-5">
     <div class="row">
-        {{-- Lista de Productos --}}
         <div class="col-md-8">
             <div class="bg-white p-4 rounded shadow-sm mb-4">
                 <h4 class="fw-bold mb-4">Tu carrito</h4>
                 
-                {{-- Producto 1 --}}
                 <div class="d-flex align-items-center gap-3 border-bottom pb-3 mb-3">
                     <img src="{{ asset('images/img-products/television-43.png') }}" alt="TV" style="width: 70px;">
                     <div class="flex-grow-1">
@@ -22,7 +20,6 @@
                     </div>
                 </div>
 
-                {{-- Producto 2 --}}
                 <div class="d-flex align-items-center gap-3">
                     <img src="{{ asset('images/img-products/estufa-bionica.png') }}" alt="Estufa" style="width: 70px;">
                     <div class="flex-grow-1">
@@ -36,7 +33,6 @@
             </div>
         </div>
 
-        {{-- Resumen de Compra --}}
         <div class="col-md-4">
             <div class="bg-white p-4 rounded shadow-sm">
                 <h5 class="fw-bold mb-3">Resumen de compra</h5>
@@ -54,7 +50,6 @@
                     <span class="fw-bold fs-4 text-dark">$525.799</span>
                 </div>
 
-                {{-- Formulario de Confirmación --}}
                 <form action="{{ route('carrito.confirmar') }}" method="POST">
                     @csrf
                     <div class="mb-3">

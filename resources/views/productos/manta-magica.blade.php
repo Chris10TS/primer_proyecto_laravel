@@ -4,10 +4,8 @@
 
 @section('contenido')
 
-{{-- Sección principal del producto --}}
 <div class="container mt-4">
 
-    {{-- Breadcrumb --}}
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
@@ -19,32 +17,27 @@
 
     <div class="row mb-5">
 
-        {{-- Columna izquierda: imágenes --}}
         <div class="col-md-5">
             <div class="card4 p-3 text-center">
                 <img src="{{ asset('images/img-products/manta.png') }}" class="img-fluid rounded" alt="Cámara LUO E107" style="max-height: 350px; object-fit: contain;">
             </div>
         </div>
 
-        {{-- Columna central: info del producto --}}
         <div class="col-md-4">
             <span class="badge bg-success mb-2">MÁS VENDIDO</span>
             <h1 class="fs-4 fw-bold">Manta Infantil 2 plazas Astronauta Efecto Luminoso Polar Soft </h1>
 
-            {{-- Estrellas --}}
             <div class="d-flex align-items-center gap-2 mb-3">
                 <span class="text-warning fs-5">★★★★☆</span>
                 <span class="text-muted">(18 opiniones)</span>
             </div>
 
-            {{-- Precio --}}
             <p class="text-muted text-decoration-line-through mb-0">$25.100</p>
             <div class="d-flex align-items-center gap-2 mb-1">
                 <span class="fs-2 fw-bold">$22.590</span>
                 <span class="badge bg-success fs-6">10% OFF</span>
             </div>
 
-            {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
                 <li><i class="ti ti-check"></i>Ancho: 190 cm</li>
                 <li><i class="ti ti-check"></i>Largo: 210 cm</li>
@@ -55,11 +48,9 @@
                 <li><i class="ti ti-check"></i>Cálida y confortable.</li>
             </ul>
 
-            {{-- Stock --}}
             <p class="text-success fw-bold"><i class="ti ti-circle-check"></i>Stock disponible</p>
         </div>
 
-        {{-- Columna derecha: compra --}}
         <div class="col-md-3">
             <div class="card p-3">
                 <p class="text-success fw-bold mb-1"><i class="ti ti-truck-delivery"></i>Envío gratis en Corrientes</p>
@@ -110,7 +101,6 @@
         </div>
     </div>
 
-    {{-- Opiniones --}}
     <div class="row mb-5">
         <div class="col-12">
             <div class="card4 p-4">

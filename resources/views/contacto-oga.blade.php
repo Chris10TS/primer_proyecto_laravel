@@ -13,7 +13,6 @@
         </div>
     </div>
 
-    {{-- Bloque Principal de Contacto --}}
     <div class="bg-white p-4 p-md-5 rounded shadow-sm mb-5">
         <div class="row g-4">
             
@@ -32,7 +31,6 @@
                 </div>
             </div>
 
-            {{-- Instagram --}}
             <div class="col-md-6 col-lg-3 text-center">
                 <div class="card h-100 border-0">
                     <div class="card-body">
@@ -47,7 +45,6 @@
                 </div>
             </div>
 
-            {{-- Facebook --}}
             <div class="col-md-6 col-lg-3 text-center">
                 <div class="card h-100 border-0">
                     <div class="card-body">
@@ -62,7 +59,6 @@
                 </div>
             </div>
 
-            {{-- Correo Electrónico --}}
             <div class="col-md-6 col-lg-3 text-center">
                 <div class="card h-100 border-0">
                     <div class="card-body">
@@ -80,7 +76,6 @@
         </div>
     </div>
 
-    {{-- Bloque de Horarios y Ubicación --}}
     <div class="bg-white p-4 rounded shadow-sm">
         <div class="row align-items-center">
             <div class="col-md-6 border-end-md text-center text-md-start">

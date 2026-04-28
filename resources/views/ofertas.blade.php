@@ -5,7 +5,6 @@
 @section('contenido')
 
 <div class="container my-5">
-    {{-- Encabezado de la página --}}
     <div class="row mb-4">
         <div class="col-12 text-center text-md-start">
             <h1 class="fw-bold text-dark"><i class="ti ti-flame"></i>Súper Ofertas</h1>
@@ -14,11 +13,9 @@
         </div>
     </div>
 
-    {{-- Bloque de Productos en Oferta --}}
     <div class="bg-white p-4 p-md-5 rounded shadow-sm">
         <div class="row g-4">
 
-            {{-- Producto 1: Cámara --}}
             <div class="col-6 col-md-4 col-lg-3">
                 <a href="/productos/camara-seguridade107" class="text-decoration-none text-dark">
                     <div class="card h-100 border shadow-none hover-shadow">
@@ -36,7 +33,6 @@
                 </a>
             </div>
 
-            {{-- Producto 2: Estufa Biónica --}}
             <div class="col-6 col-md-4 col-lg-3">
                 <a href="/productos/estufa-bionica" class="text-decoration-none text-dark">
                     <div class="card h-100 border shadow-none hover-shadow">
@@ -54,7 +50,6 @@
                 </a>
             </div>
 
-            {{-- Producto 3: TV 50 --}}
             <div class="col-6 col-md-4 col-lg-3">
                 <a href="/productos/televisor-50" class="text-decoration-none text-dark">
                     <div class="card h-100 border shadow-none hover-shadow">
@@ -72,7 +67,6 @@
                 </a>
             </div>
 
-            {{-- Producto 4: Manta --}}
             <div class="col-6 col-md-4 col-lg-3">
                 <a href="/productos/manta-river" class="text-decoration-none text-dark">
                     <div class="card h-100 border shadow-none hover-shadow">
@@ -93,7 +87,6 @@
         </div>
     </div>
 
-    {{-- Imagen Abajo (Ocupa todo el ancho sin cortarse) --}}
             <div class="col-12 text-center">
                 <img src="{{ asset('images/img-descounts/scaloneta-img.png') }}" 
                     class="img-fluid rounded shadow-sm" 

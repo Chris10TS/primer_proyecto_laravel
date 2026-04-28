@@ -5,7 +5,6 @@
 @section('contenido')
 
 <div class="container my-5">
-    {{-- Título de la página --}}
     <div class="row mb-4 text-center">
         <div class="col-12">
             <h1 class="fw-bold">Realizá tu Consulta</h1>

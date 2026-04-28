@@ -13,10 +13,8 @@
         </div>
     </div>
 
-    {{-- Contenedor principal de la grilla --}}
     <div class="row">
         
-        {{-- Cámara E107 --}}
         <div class="col-md-4 col-sm-6 mb-4">
             <a href="/productos/camara-seguridade107" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
@@ -30,7 +28,6 @@
             </a>
         </div>
 
-        {{-- Cámara E126 --}}
         <div class="col-md-4 col-sm-6 mb-4">
             <a href="/productos/camara-seguridade126" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
@@ -44,7 +41,6 @@
             </a>
         </div>
 
-        {{-- Kit E121 --}}
         <div class="col-md-4 col-sm-6 mb-4">
             <a href="/productos/camara-e121" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">
@@ -58,7 +54,6 @@
             </a>
         </div>
 
-        {{-- Kit E122 --}}
         <div class="col-md-4 col-sm-6 mb-4">
             <a href="/productos/camara-e122" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm">

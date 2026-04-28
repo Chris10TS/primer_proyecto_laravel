@@ -4,10 +4,8 @@
 
 @section('contenido')
 
-{{-- Sección principal del producto --}}
 <div class="container mt-4">
 
-    {{-- Breadcrumb --}}
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/inicio">Inicio</a></li>
@@ -19,30 +17,21 @@
 
     <div class="row mb-5">
 
-        {{-- Columna izquierda: imágenes --}}
         <div class="col-md-5">
             <div class="card p-3 text-center">
                 <img src="{{ asset('images/img-products/camaraseguridade107.png') }}" class="img-fluid rounded" alt="Cámara LUO E107" style="max-height: 350px; object-fit: contain;">
             </div>
-            <div class="d-flex gap-2 mt-2">
-                <img src="{{ asset('images/img-products/camara-luo-e107-2.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/img-products/camara-luo-e107-3.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-                <img src="{{ asset('images/img-products/camara-luo-e107-4.png') }}" class="border rounded p-1" style="width:70px; height:70px; object-fit:contain; cursor:pointer;">
-            </div>
         </div>
 
-        {{-- Columna central: info del producto --}}
         <div class="col-md-4">
             <span class="badge bg-success mb-2">MÁS VENDIDO</span>
             <h1 class="fs-4 fw-bold">Cámara de Seguridad WiFi LUO E107</h1>
 
-            {{-- Estrellas --}}
             <div class="d-flex align-items-center gap-2 mb-3">
                 <span class="text-warning fs-5">★★★★☆</span>
                 <span class="text-muted">(128 opiniones)</span>
             </div>
 
-            {{-- Precio --}}
             <p class="text-muted text-decoration-line-through mb-0">$65.000</p>
             <div class="d-flex align-items-center gap-2 mb-1">
                 <span class="fs-2 fw-bold">$50.000</span>
@@ -50,7 +39,6 @@
             </div>
             <p class="text-muted mb-3">6 cuotas de $8.333 sin interés</p>
 
-            {{-- Características rápidas --}}
             <ul class="list-unstyled mb-3">
                 <li><i class="ti ti-check"></i>Resolución Full HD 1080p</li>
                 <li><i class="ti ti-check"></i>Visión nocturna hasta 20 metros</li>
@@ -59,11 +47,9 @@
                 <li><i class="ti ti-check"></i>Resistente al agua IP66</li>
             </ul>
 
-            {{-- Stock --}}
             <p class="text-success fw-bold"><i class="ti ti-circle-check"></i>Stock disponible</p>
         </div>
 
-        {{-- Columna derecha: compra --}}
         <div class="col-md-3">
             <div class="card p-3">
                 <p class="text-success fw-bold mb-1"><i class="ti ti-truck-delivery"></i>Envío gratis en Corrientes</p>
@@ -114,7 +100,6 @@
         </div>
     </div>
 
-    {{-- Opiniones --}}
     <div class="row mb-5">
         <div class="col-12">
             <div class="card4 p-4">

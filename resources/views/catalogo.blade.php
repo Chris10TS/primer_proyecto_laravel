@@ -141,7 +141,6 @@
 </div>
 
 <div class="row">
-        {{-- Manta River --}}
         <div class="col-md-4 mb-4">
             <a href="/productos/manta-river" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm border-0">
@@ -156,7 +155,6 @@
             </a>
         </div>
 
-        {{-- Manta Infantil --}}
         <div class="col-md-4 mb-4">
             <a href="/productos/manta-magica" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-sm border-0">
