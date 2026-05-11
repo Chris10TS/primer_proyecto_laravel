@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ContactoOgaController;
 
+use App\Http\Controllers\ConsultaController;
+
 Route::get('/inicio', function () {
     return view('inicio');
 });
@@ -101,3 +103,8 @@ Route::get('/catalogo-hogar', function() {
 route::get('/catalogo', function() {
     return view('catalogo');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::post('/enviar-consulta', [ConsultaController::class, 'store_contact'])->name('consultas.guardar');
