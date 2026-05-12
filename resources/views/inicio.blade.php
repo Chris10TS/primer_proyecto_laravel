@@ -50,7 +50,7 @@
 <h2 class="mb-4"><span class="fw-bold">Más Vendidos</span></h2>
 
 <div class="container my-5">
-    <div class="d-flex overflow-auto pb-3 gap-3" style="scrollbar-width: thin;">
+    <div class="d-flex justify-content-center overflow-auto pb-3 gap-3" style="scrollbar-width: thin';">
         
         <a href="/productos/camara-e121" class="text-decoration-none text-dark">
         <div class="card border-0 shadow-sm tarjeta-producto">
