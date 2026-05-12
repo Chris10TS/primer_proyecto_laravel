@@ -108,3 +108,6 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::post('/enviar-consulta', [ConsultaController::class, 'store_contact'])->name('consultas.guardar');
+Auth::routes();
+
+Route::get('/admin/consultas', [ConsultaController::class, 'index'])->name('admin.consultas');

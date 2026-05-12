@@ -77,12 +77,41 @@
                 </ul>
             </div>
 
-            <div class="d-none d-lg-flex gap-4 ms-4">
-                <a href="/ofertas" class="text-decoration-none text-black small fw-bold">OFERTAS</a>
-                <a href="/consultas" class="text-decoration-none text-black small fw-bold">CONSULTAS</a>
-                <a href="/contacto-oga" class="text-decoration-none text-black small fw-bold">CONTACTOS</a>
-                <a href="/comercializacion" class="text-decoration-none text-black small fw-bold">COMERCIALIZACIÓN</a>
-            </div>
+            <div class="d-none d-lg-flex align-items-center gap-4 ms-4">
+    <a href="/ofertas" class="text-decoration-none text-black small fw-bold">OFERTAS</a>
+    <a href="/consultas" class="text-decoration-none text-black small fw-bold">CONSULTAS</a>
+    <a href="/contacto-oga" class="text-decoration-none text-black small fw-bold">CONTACTOS</a>
+    <a href="/comercializacion" class="text-decoration-none text-black small fw-bold">COMERCIALIZACIÓN</a>
+
+    {{-- Separador visual --}}
+    <div class="border-start ps-4 d-flex align-items-center gap-3">
+        @auth
+            {{-- Si es ADMIN, mostramos el link a las consultas --}}
+            @if(Auth::user()->rol == 'admin')
+                <a href="{{ route('admin.consultas') }}" class="text-decoration-none text-danger small fw-bold">
+                    <i class="ti ti-shield-check me-1"></i>PANEL ADMIN
+                </a>
+            @endif
+
+            {{-- Nombre del usuario y Cerrar Sesión --}}
+            <span class="small text-muted">Hola, <strong>{{ Auth::user()->name }}</strong></span>
+            
+            <a href="{{ route('logout') }}" class="text-decoration-none text-muted small" 
+                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                Salir
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                @csrf
+            </form>
+            
+        @else
+            {{-- Si no está logueado --}}
+            <a href="{{ route('login') }}" class="text-decoration-none text-black small fw-bold">INGRESAR</a>
+            <a href="{{ route('register') }}" class="btn btn-dark btn-sm fw-bold">REGISTRARSE</a>
+        @endauth
+    </div>
+</div>
 
         </div>
     </div>

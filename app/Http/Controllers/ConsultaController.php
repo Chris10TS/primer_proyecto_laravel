@@ -9,6 +9,13 @@ use Illuminate\Http\Request;
 
 class ConsultaController extends Controller
 {
+    public function index()
+    {
+        $consultas = Consulta::all();
+        
+        return view('admin.consultas', compact('consultas'));
+    }
+
     public function store_contact(ContactoRequest $request) 
     {
         $datos = $request->validated();
